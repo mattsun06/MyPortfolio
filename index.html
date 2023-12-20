@@ -4,39 +4,36 @@
     <meta charset="utf-8">
     <title>MyPortfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/style.css"/>
     <style>*{font-family: source-han-serif-japanese, serif}</style>
   </head>
   <body>
     <header id="header" class="header">
       <div class="header__logo">
-          <h1>
-            <a href="index.html">
-              <!-- 記載番号：1 -->
-              <span class="header__logo-title">MatsuKei</span>
-              <span class="header__logo-sub">Portfolio</span>
-            </a>
-          </h1>
+          <!-- 記載番号：1 -->
+        <div class="header__logo-title">
+            <a href="index.html">MatsuKei Portfolio</a>
         </div>
-        <div class="header__hamburger">
-          <i></i>
-        </div>
-        <nav class="header__gnav">
-          <ul class="header__gnav-list">
+        <div class="header__gnav">
+          <ul class="header__gnav-lists">
             <li class="header__gnav-item"><a href="#a-profile">PROFILE</a></li>
             <li class="header__gnav-item"><a href="#a-skill">SKILL</a></li>
             <li class="header__gnav-item"><a href="#a-works">WORKS</a></li>
           </ul>
-        </nav>
+        </div>
     </header>
     <main>
       <div class="firstview firstview-bg">
         <div class="firstview__inner">
           <div class="firstview__main">
-            <div class="firstview__main-pict obj-fit-img">
+            <!-- 背景画像 -->
+            <div class="firstview__main-pict">
+              <img class="back-img" src="./images/oceanview.jpg">
               <!-- 顔写真 -->
-              <img src="./images/portfolio_profile.jpg">
+              <img class="myself-img" src="./images/portfolio_profile.jpg">
             </div>
+
             <div class="firstview__info">
               <h2>
                 <!-- 記載番号：2 -->
