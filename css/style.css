@@ -122,6 +122,11 @@
   font-size: 14px;
 }
 
+.skill__text-area{
+  margin: 0 30px;
+  text-align: center;
+}
+
 .heading{
   padding-top: 80px;
 }
@@ -198,4 +203,192 @@ a.btn--shadow {
 
 footer p{
   padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+/* タブレット表示時 */
+@media (max-width: 1024px){
+
+  /* ヘッダー部分 */
+  
+  
+  .header__logo-title{
+    width: 50%;
+    margin-left: 15px;
+    font-size: 30px;
+  }
+  
+  
+  .header__gnav{
+    width: 50%;
+    font-size: 22px;
+    text-decoration: none;
+  }
+  
+  /* ヘッダー部分ここまで */
+  
+  /* 自己紹介 */
+  
+  .firstview__info{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+  }
+  
+  .firstview__info-name{
+    font-size: 45px;
+    color: #100f0f;
+  }
+  
+  .firstview__info-name-sm{
+    font-size: 28px;
+    color: #100f0f;
+  }
+  
+  .firstview__info-origin-list{
+    font-size: 28px;
+    color: #100f0f;
+  }
+  
+  .firstview__info-origin-item a{
+    text-decoration: none;
+    font-size: 28px;
+    color: #100f0f;
+  }
+  
+  .firstview__point{
+    text-align: center;
+    font-size: 20px;
+    margin: 50px 50px 50px 50px;
+  }
+  
+  
+  .section-inner{
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .skill{
+    background-color: #ececec;
+    padding: 10px 0;
+  }
+  
+  .skill__item p {
+    font-size: 16px;
+  }
+  
+  
+  .profile__text-area{
+    margin: 10px 30px 10px 30px;
+    padding: 30px 30px 30px 30px;
+    text-align: start;
+  }
+  
+  
+  .works__item-pict img{
+    width: 40%;
+    height: auto;
+  }
+  
+  .works__item-text-block p{
+    font-size: 15px;
+  }
+
+}
+
+
+/* スマホ表示時 */
+@media (max-width: 599px){
+
+  /* ヘッダー部分 */
+
+
+  .header__logo-title{
+    width: 50%;
+    margin-left: 15px;
+    font-size: 25px;
+  }
+
+
+  .header__gnav{
+    width: 50%;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  /* ヘッダー部分ここまで */
+
+  /* 自己紹介 */
+
+  .firstview__info{
+    position: absolute;
+    top: 168px;
+    left:45px;
+  }
+
+  .firstview__info-name{
+    font-size: 35px;
+    color: #100f0f;
+  }
+
+  .firstview__info-name-sm{
+    font-size: 18px;
+    color: #100f0f;
+  }
+
+  .firstview__info-origin-list{
+    font-size: 18px;
+    color: #100f0f;
+  }
+
+  .firstview__info-origin-item a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #100f0f;
+  }
+
+  .firstview__point{
+    text-align: center;
+    font-size: 16px;
+    margin: 50px 50px 50px 50px;
+  }
+
+
+  .section-inner{
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .skill{
+    background-color: #ececec;
+    padding: 10px 0;
+  }
+
+  .skill__item p {
+    font-size: 12px;
+  }
+
+
+  .profile__text-area{
+    margin: 10px 30px 10px 30px;
+    padding: 30px 30px 30px 30px;
+    text-align: start;
+  }
+
+
+  .works__item-pict img{
+    width: 45%;
+    height: auto;
+  }
+
+  .works__item-text-block p{
+    font-size: 12px;
+  }
+
 }
