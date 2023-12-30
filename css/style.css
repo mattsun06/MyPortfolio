@@ -304,7 +304,7 @@ footer p{
 
 
 /* スマホ表示時 */
-@media (max-width: 599px){
+@media (max-width: 400px){
 
   /* ヘッダー部分 */
 
@@ -312,13 +312,13 @@ footer p{
   .header__logo-title{
     width: 50%;
     margin-left: 15px;
-    font-size: 25px;
+    font-size: 16px;
   }
 
 
   .header__gnav{
     width: 50%;
-    font-size: 18px;
+    font-size: 10px;
     text-decoration: none;
   }
 
@@ -328,41 +328,41 @@ footer p{
 
   .firstview__info{
     position: absolute;
-    top: 168px;
-    left:45px;
+    top: 127px;
+    left:25px;
   }
 
   .firstview__info-name{
-    font-size: 35px;
+    font-size: 18px;
     color: #100f0f;
   }
 
   .firstview__info-name-sm{
-    font-size: 18px;
+    font-size: 12px;
     color: #100f0f;
   }
 
   .firstview__info-origin-list{
-    font-size: 18px;
+    font-size: 12px;
     color: #100f0f;
   }
 
   .firstview__info-origin-item a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 12px;
     color: #100f0f;
   }
 
   .firstview__point{
     text-align: center;
-    font-size: 16px;
-    margin: 50px 50px 50px 50px;
+    font-size: 12px;
+    margin: 50px 20px 50px 20px;
   }
 
 
   .section-inner{
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .skill{
@@ -376,7 +376,7 @@ footer p{
 
 
   .profile__text-area{
-    margin: 10px 30px 10px 30px;
+    margin: 10px 20px 10px 20px;
     padding: 30px 30px 30px 30px;
     text-align: start;
   }
@@ -388,7 +388,7 @@ footer p{
   }
 
   .works__item-text-block p{
-    font-size: 12px;
+    font-size: 10px;
   }
 
 }
