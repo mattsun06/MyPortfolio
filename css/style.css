@@ -97,3 +97,105 @@
   font-size: 20px;
   color: #100f0f;
 }
+
+.firstview__point{
+  text-align: center;
+  font-size: 20px;
+  margin: 50px 400px 50px 400px;
+}
+
+.firstview__point-item{
+  text-align: center;
+}
+
+.section-inner{
+  text-align: center;
+  font-size: 16px;
+}
+
+.skill{
+  background-color: #ececec;
+  padding: 10px 0;
+}
+
+.skill__item p {
+  font-size: 14px;
+}
+
+.heading{
+  padding-top: 80px;
+}
+
+.profile__text-area{
+  margin: 10px 300px 10px 300px;
+  padding-bottom: 30px;
+  text-align: start;
+}
+
+.works{
+  padding: 20px 0;
+}
+
+.works__list{
+
+}
+
+.heading{
+  text-align: center;
+}
+
+.works__item-pict{
+
+}
+
+.works__item-pict img{
+  width: 30%;
+  height: auto;
+}
+
+.works__item-text-block p{
+  font-size: 12px;
+}
+
+.works-btn{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.works-btn a{
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+/* Moreボタンの設定 */
+
+a.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+  border-bottom: 5px solid #b84c00;
+}
+a.btn--orange:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #f56500;
+  border-bottom: 2px solid #b84c00;
+}
+a.btn--shadow {
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
+
+
+/* フッター */
+.footer{
+  background-color: #070c40;
+  width: 100%;
+  height: 60px;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+footer p{
+  padding-top: 20px;
+}
