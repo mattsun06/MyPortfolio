@@ -73,28 +73,28 @@
 
 .firstview__info{
   position: absolute;
-  top: 350px;
-  left:150px;
+  top: 32%;
+  left: 8%;
 }
 
 .firstview__info-name{
-  font-size: 50px;
+  font-size: 300%;
   color: #100f0f;
 }
 
 .firstview__info-name-sm{
-  font-size: 25px;
+  font-size: 150%;
   color: #100f0f;
 }
 
 .firstview__info-origin-list{
-  font-size: 20px;
+  font-size: 140%;
   color: #100f0f;
 }
 
 .firstview__info-origin-item a{
   text-decoration: none;
-  font-size: 20px;
+  font-size: 110%;
   color: #100f0f;
 }
 
@@ -235,33 +235,34 @@ footer p{
   
   /* 自己紹介 */
   
+  
   .firstview__info{
     position: absolute;
-    top: 250px;
-    left: 100px;
+    top: 32%;
+    left: 5%;
   }
-  
+
   .firstview__info-name{
-    font-size: 45px;
+    font-size: 200%;
     color: #100f0f;
   }
-  
+
   .firstview__info-name-sm{
-    font-size: 28px;
+    font-size: 120%;
     color: #100f0f;
   }
-  
+
   .firstview__info-origin-list{
-    font-size: 28px;
+    font-size: 110%;
     color: #100f0f;
   }
-  
+
   .firstview__info-origin-item a{
     text-decoration: none;
-    font-size: 28px;
+    font-size: 110%;
     color: #100f0f;
   }
-  
+
   .firstview__point{
     text-align: center;
     font-size: 20px;
@@ -303,7 +304,58 @@ footer p{
 }
 
 
+
 /* スマホ表示時 */
+@media (max-width: 599px){
+  /* ヘッダー部分 */
+
+
+  .header__logo-title{
+    width: 50%;
+    margin-left: 15px;
+    font-size: 18px;
+  }
+
+
+  .header__gnav{
+    width: 50%;
+    font-size: 13px;
+    text-decoration: none;
+  }
+
+  /* ヘッダー部分ここまで */
+
+  .firstview__info{
+    position: absolute;
+    top: 35%;
+    left: 3%;
+  }
+
+  .firstview__info-name{
+    font-size: 130%;
+    color: #100f0f;
+  }
+
+  .firstview__info-name-sm{
+    font-size: 70%;
+    color: #100f0f;
+  }
+
+  .firstview__info-origin-list{
+    font-size: 70%;
+    color: #100f0f;
+  }
+
+  .firstview__info-origin-item a{
+    text-decoration: none;
+    font-size: 110%;
+    color: #100f0f;
+  }
+}
+
+
+
+/* iphone表示時 */
 @media (max-width: 400px){
 
   /* ヘッダー部分 */
@@ -333,7 +385,7 @@ footer p{
   }
 
   .firstview__info-name{
-    font-size: 18px;
+    font-size: 5vw;
     color: #100f0f;
   }
 
